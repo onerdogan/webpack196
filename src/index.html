@@ -1,22 +1,4 @@
-import{setItem} from "./utils/storage";
-import "./index.scss";
-
-
-document.getElementById("btnSayHallo").addEventListener("click",()=>{
-    alert("hello webpack world")
-
-    const arr=[123,56,78,126,45,56]
-    console.log(getArray([...arr]));
-    setItem("token","tewww3-ay434t-34t334-3tt34t-t33t3");
-})
-
-const getArray=(arr)=>{
-   return arr.filter((x)=>x>100).reduce((t,y)=>t+y,0);
-}
-
-
-
-/*<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -92,6 +74,7 @@ const getArray=(arr)=>{
     </nav>
     
     <button id="btnSayHallo" class="btn btn-info mt-5">say hello</button>
-    <script src="./main.js"></script>
+    <img src="bg.jpg" alt="">
 </body>
-</html> */
+
+</html>
